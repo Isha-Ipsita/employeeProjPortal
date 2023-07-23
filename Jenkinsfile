@@ -7,10 +7,10 @@ pipeline {
                 script {
                     // Checkout the project from GitHub
                     git branch: 'main',
-                    credentialsId: 'none',
-                    url: 'https://github.com/Isha-Ipsita/employeeProjPortal.git'
+                        credentialsId: 'none',
+                        url: 'https://github.com/Isha-Ipsita/employeeProjPortal.git'
                 }
             }
         }
-
+    }
 }
